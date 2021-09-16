@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(images/pic_01.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  font-family: 'Saira Semi Condensed', 'Times New Roman';
+  font-size: 20px;
+  min-width: 1000px;
+}
+
+#main-header {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 80px;
+}
+
+#gnb a {
+  color: white;
+  font-size: 20px;
+}
+
+#main-header > h1 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: 'Julius Sans One', 'Times New Roman', Times, serif;
+  vertical-align: middle;
+}
+
+#main-header #main_gnb {
+  float: center;
+}
+
+#gnb > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+#main_gnb {
+  padding-top: 25px;
+}
+
+#main_gnb #gnb {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 30px;
+}
+
+#main_gnb .search-box {
+  float: right;
+  margin-right: 30px;
+}
+
+#main_gnb .search-box .search {
+  width: 200px;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+#main_gnb .search-box button {
+  padding: 5px;
+  background: brown;
+  border-style: none;
+  vertical-align: middle;
+}
+
+/* 타이틀 */
+.title .head-text {
+  color : #fff;
+  font-size: 55px;
+  font-family: 'Julius Sans One', 'Times New Roman';
+  font-weight: bold;
+  text-align: right;
+  margin-top: 120px;
+  margin-right: 300px;
+  text-shadow: 0 0 8px #000;
+ }
+
+.title-content{
+  width: 400px;
+  height: 350px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 4px rgb(42, 42, 42);
+  border: 0.5px solid #ccc;
+  color: snow;
+  float: right;
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+.title-content > .title-text {
+  font-size: 30px;
+}
+
+.title-text, .content-text {
+   margin-left: 30px;
+   margin-top: 10px;
+}
+ 
