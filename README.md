@@ -1,4 +1,4 @@
-## 연습프로젝트
-랜덤페이지 : National Gallery
+## National Gallery
+- GNB 세로로 내리기
 
-URL: https://soomimyme.github.io/Project/
+URL: https://soomimyme.github.io/National-Gallery/
