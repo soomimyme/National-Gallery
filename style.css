@@ -22,10 +22,79 @@ body {
   min-width: 1000px;
 }
 
+
+
+/* 로고 및 검색 */
 #main-header {
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.151); */
   color: white;
   height: 80px;
+}
+
+#main-header > .logo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: 'Julius Sans One', 'Times New Roman', Times, serif;
+  vertical-align: middle;
+  text-shadow: 1px 3px 6px #000;
+}
+
+.logo a {color: #fff;}
+
+.logo a > span {font-size: 24px;}
+
+#main-header .search-box {
+  float: right;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+
+.search-box .search {
+  width: 500px;
+  height: 30px;
+  padding: 3px;
+  outline: none;
+  vertical-align: middle;
+}
+
+.search-box button {
+  height: 30px;
+  padding: 5px;
+  background: brown;
+  color: rgb(230, 230, 230);
+  border-style: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+
+/* gnb */
+.gnb-box {
+  /* outline: 1px solid yellow; */
+  width: 13%;
+  position: sticky;
+}
+
+.gnb-box #gnb {
+  font-weight: normal;
+  /* position: fixed; */
+  /* outline: 1px solid yellow; */
+}
+
+#gnb li {
+  /* outline: 1px solid blue; */
+  display: block;
+  height: 90px;
+  text-align: left;
+  padding-top: 30px;
+  /* margin-left: 10px; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.267);
+}
+
+#gnb li:hover {
+  background: rgba(0, 0, 0, 0.904);
 }
 
 #gnb a {
@@ -33,85 +102,56 @@ body {
   font-size: 20px;
 }
 
-#gnb a:hover {
-  color: brown;
-}
 
-#main-header > h1 {
-  float: left;
-  margin-top: 20px;
-  margin-left: 30px;
-  font-family: 'Julius Sans One', 'Times New Roman', Times, serif;
-  vertical-align: middle;
-}
-
-#main-header #main_gnb {
-  float: center;
-}
-
-#gnb > li {
-  display: inline-block;
-  margin-left: 2em;
-}
-
-#main_gnb {
-  padding-top: 25px;
-}
-
-#main_gnb #gnb {
-  display: inline-block;
-  font-weight: normal;
-  margin-left: 30px;
-}
-
-#main_gnb .search-box {
-  float: right;
-  margin-right: 30px;
-}
-
-#main_gnb .search-box .search {
-  width: 200px;
-  padding: 3px;
-  vertical-align: middle;
-}
-
-#main_gnb .search-box button {
-  padding: 5px;
-  background: brown;
-  border-style: none;
-  vertical-align: middle;
-}
 
 /* 타이틀 */
+.container {
+  /* outline: 1px solid blue; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .title .head-text {
-  color : #fff;
-  font-size: 55px;
+  /* outline: 1px solid salmon; */
+  color : rgb(229, 255, 0);
+  font-size: 60px;
   font-family: 'Julius Sans One', 'Times New Roman';
   font-weight: bold;
   text-align: right;
-  margin-top: 120px;
-  margin-right: 300px;
-  text-shadow: 0 0 8px #000;
+  text-shadow: 0 3px 8px #000;
+  margin-right: 200px;
+  margin-top: 150px;
  }
 
-.title-content{
-  width: 400px;
+.title > .title-content{
+  width: 420px;
   height: 350px;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 4px rgb(42, 42, 42);
-  border: 0.5px solid #ccc;
-  color: snow;
-  float: right;
-  margin-right: 300px;
-  margin-top: 20px;
+  /* background: rgba(0, 0, 0, 0.8); */
+  background-image: url(images/paper-texture3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 3px 6px rgb(0, 0, 0);
+  border: 12px solid rgb(34, 33, 31);
+  color: #000;
+  margin-top: 30px;
+  margin-left: 250px;
+  font-family: 'Times New Roman';
+  text-align: center;
 }
 
-.title-content > .title-text {
+.title-content .title-text {
   font-size: 30px;
+  margin-top: 30px;
+  text-shadow: 0 0 1px #000;
+  font-weight: bold;
 }
 
 .title-text, .content-text {
-   margin-left: 30px;
-   margin-top: 10px;
+   /* margin-left: 40px; */
+   margin-top: 20px;
+   font-weight: normal;
+   text-shadow: 0 0 0.5px #000;
 }
  
